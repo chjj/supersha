@@ -45,7 +45,6 @@ for (var i = 0; i < 100000; i++) {
 end(i);
 
 var end = bench('supersha.sha256');
-var start = Date.now();
 for (var i = 0; i < 100000; i++) {
   supersha.sha256(b);
 }
@@ -58,7 +57,6 @@ for (var i = 0; i < 100000; i++) {
 end(i);
 
 var end = bench('supersha.hash256');
-var start = Date.now();
 for (var i = 0; i < 100000; i++) {
   supersha.hash256(b);
 }
@@ -71,7 +69,6 @@ for (var i = 0; i < 100000; i++) {
 end(i);
 
 var end = bench('supersha.sha256hmac');
-var start = Date.now();
 for (var i = 0; i < 100000; i++) {
   supersha.sha256hmac(b, k);
 }
