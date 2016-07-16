@@ -1,6 +1,6 @@
 {
   "name": "supersha",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extremely fast sha256 (bindings to libsecp256k1)",
   "keywords": [
     "sha256",
