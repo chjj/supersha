@@ -1,0 +1,34 @@
+{
+  "name": "supersha",
+  "version": "0.0.0",
+  "description": "Extremely fast sha256 (bindings to libsecp256k1)",
+  "keywords": [
+    "sha256",
+    "hmac",
+    "sha",
+    "bcoin",
+    "bitcoin",
+    "hash256"
+  ],
+  "bugs": {
+    "url": "https://github.com/chjj/supersha/issues"
+  },
+  "homepage": "https://github.com/chjj/supersha",
+  "license": "MIT",
+  "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
+  "main": "./index.js",
+  "repository": "git://github.com/chjj/supersha.git",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "node test.js",
+    "bench": "node bench.js"
+  },
+  "dependencies": {
+    "bindings": "1.2.1",
+    "nan": "2.4.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "gypfile": true
+}
